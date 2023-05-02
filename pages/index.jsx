@@ -49,7 +49,7 @@ export default function Home() {
   useEffect(() => {
     getValues();
   }, []);
-
+  console.log("form page");
   return (
     <>
       <div className="container-fluid">
